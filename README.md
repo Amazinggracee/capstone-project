@@ -49,8 +49,8 @@ This Capstone Project is based on an online website for a conference with a slog
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://github.com/Amazinggracee/capstone-project) -->
-
+[Live Demo Link](https://amazinggracee.github.io/capstone-project/)
+[Live Demo ](https://amazinggracee.github.io/capstone-project/)
 ## Getting Started
 
 To run this project clone it with `git clone git@github.com:Amazinggracee/capstone-project.git`
