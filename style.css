@@ -492,6 +492,8 @@ nav.glue {
 .activity-item h3 {
   font-size: 16px;
   color: var(--theme);
+  display: flex;
+  margin: auto;
 }
 
 .guest-item-text p {
@@ -502,6 +504,8 @@ nav.glue {
 
 .activity-item .activity-item-text p {
   font-size: 14px;
+  display: flex;
+  margin: auto;
 }
 
 .activity-cta {
@@ -566,14 +570,19 @@ q {
   padding: 0.5rem 1rem;
   cursor: pointer;
   position: relative;
+  background-image: url(./img/cheq.png);
+  background-size: 20% 18%;
+  background-repeat: no-repeat;
 }
 
 .guest-item .guest-item-img {
-  width: 100px;
-  overflow: hidden;
+  width: 100%;
+  margin-top: -6px;
+  margin-right: 5px;
 }
 
 .guest-item .guest-item-img img {
+  margin-top: 11px;
   width: 100%;
   position: relative;
 }
@@ -730,6 +739,17 @@ q {
 }
 
 .logo-exposition-content .logo-exposition-title {
+  margin-bottom: 1rem;
+}
+
+.logo-exposition-content .logo-exposition-title::before {
+  content: '';
+  position: absolute;
+  bottom: 80px;
+  width: 50px;
+  right: 45%;
+  height: 1px;
+  background-color: var(--theme);
   margin-bottom: 1rem;
 }
 
@@ -953,6 +973,24 @@ q {
     display: none;
   }
 
+  .guest-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    position: relative;
+    background-image: url(./img/cheq.png);
+    background-size: 21% 13%;
+    background-repeat: no-repeat;
+  }
+
+  .guest-item .guest-item-img img {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+    margin-left: 12px;
+  }
+
   /* ============ about page ======== */
   .about-p {
     max-width: 40rem;
@@ -961,5 +999,16 @@ q {
 
   .history-cards {
     flex-direction: row;
+  }
+
+  .logo-exposition-content .logo-exposition-title::before {
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    width: 40px;
+    right: 50%;
+    height: 1px;
+    background-color: var(--theme);
+    margin-bottom: 1rem;
   }
 }

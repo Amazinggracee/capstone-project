@@ -44,7 +44,7 @@ const speakers = [
     description:
       'Hello Im a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.',
     quotation: 'Rock your world by saving energy.',
-    image: './img/Amara.png',
+    image: './img/amara2.jpg',
   },
   {
     speaker: 'Golda Onyia',
