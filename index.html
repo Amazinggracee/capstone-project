@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Event</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <div id="header" class="header">
+      <!-----------------------------------First Header------------------------------ -->
+      <div class="top-header">
+        <div class="container top-header-container">
+          <ul class="top-header-content">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/amazinggraceu" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#" class="login-btn">Logout</a></li>
+          </ul>
+        </div>
+        <!-- --------------------popup for users-------------------- -->
+        <div id="pop-for-users">
+          <div class="login-popup">
+            <div class="login-popup-content">
+              <div class="login-popup-content-header">
+                <div class="login-popup-content-header-title">
+                  <h3>Login</h3>
+                </div>
+                <div class="login-popup-content-header-close">
+                  <i class="pop-close | fas fa-times"></i>
+                </div>
+              </div>
+              <div class="login-popup-content-body">
+                <div class="login-popup-content-body-form">
+                  <form action="https://formspree.io/f/maykrgwn" method="post">
+                    <div class="login-popup-content-body-form-input">
+                      <input type="text" placeholder="Email" />
+                    </div>
+                    <div class="login-popup-content-body-form-input">
+                      <input type="password" placeholder="Password" />
+                    </div>
+                    <div class="remember-f login-popup-content-body-form-input">
+                      <input type="checkbox" id="isMe" />
+                      <label for="isMe">Remember me</label>
+                    </div>
+                    <div class="login-popup-content-body-form-input">
+                      <button class="btn btn-primary" type="submit">
+                        Login
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="login-popup-content-body-register">
+                  <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------End of First Header------------------- -->
+
+      <!-- ---------------------Navbar------------------------------------- -->
+      <nav id="navbar" class="navbar">
+        <div class="container navbar-container">
+          <div class="logo">
+            <a href="index.html" class="navbar-brand logo"
+              ><img src="./img/logo.png" alt="logo"
+            /></a>
+          </div>
+          <div class="navbar-right">
+            <ul class="navbarItems">
+              <li class="items"><a href="./about.html">About</a></li>
+              <li class="items"><a href="#program">Program</a></li>
+              <li class="items"><a href="#guest">Feature</a></li>
+              <li class="items"><a href="#partner">Sponsor</a></li>
+              <li class="items"><a href="./about.html">News</a></li>
+              <li class="items">
+                <a href="#" class="btn-nav">AMA campaign</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ----------------------The Main content------------------------ -->
+    <div class="main">
+      <!-- -----------------------------invitation section----------------------- -->
+      <section class="invitation">
+        <div class="overlay">
+          <div class="invitation-bg">
+            <div class="container">
+              <div class="invitation-content">
+                <h3 class="welcome">
+                  "Hey There. welcome to Lifecycle World!"
+                </h3>
+                <h1>
+                  A NEW ERA IN PRODUCT <br />
+                  LIFECYCLE INNOVATION
+                </h1>
+                <p class="welcomePage">
+                  Join thousands of technologists at AMA's premier annual event
+                  dedicated to digital transformation for the industrial
+                  enterprise. Learn how you can create enterprise value, empower
+                  greater worker productivity, and make the world a better place
+                  through advanced technology.
+                </p>
+                <h2 class="realTime">2023.05.22(SAT) ~ 26(WED)</h2>
+                <span class="venue"
+                  >@Golf Estate Port Harcourt, LOOm Center Trans-Amadi and
+                  more</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------activity section------------------ -->
+      <section id="activity" class="activity">
+        <div class="activity-bg">
+          <div class="container">
+            <div class="activity-content">
+              <h2 class="mainTitle" id="program">Main Program</h2>
+              <div class="activity-list">
+                <div class="activity-item">
+                  <div class="activity-item-img">
+                    <img
+                      class="activity-img"
+                      src="./img/pic_iiot_prodserv.jpg.png"
+                      alt=""
+                    />
+                  </div>
+                  <h3>INTERNET OF THINGS</h3>
+                  <div class="activity-item-text">
+                    <p>
+                      Staying on top of technology trends related to the
+                      Industrial Internet of Things.
+                    </p>
+                  </div>
+                </div>
+                <div class="activity-item">
+                  <div class="activity-item-img">
+                    <img
+                      class="activity-img"
+                      src="./img/Sustainability-Track-Header.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <h3>SUSTAINABILITY</h3>
+                  <div class="activity-item-text">
+                    <p>
+                      Sustainability is becoming a bigger priority for
+                      consumers.
+                    </p>
+                  </div>
+                </div>
+                <div class="activity-item">
+                  <div class="activity-item-img">
+                    <img class="activity-img" src="./img/pic_plm.png" alt="" />
+                  </div>
+                  <h3>LIFECYCLE MANAGEMENT</h3>
+                  <div class="activity-item-text">
+                    <p>
+                      There are many challenges relationships in full lifecycle
+                      process automation.
+                    </p>
+                  </div>
+                </div>
+                <div class="activity-item">
+                  <div class="activity-item-img">
+                    <img class="activity-img" src="./img/pic_cad.png" alt="" />
+                  </div>
+                  <h3>CAD</h3>
+                  <div class="activity-item-text">
+                    <p>We will brings you the latest technology solutions .</p>
+                  </div>
+                </div>
+                <div class="activity-item">
+                  <div class="activity-item-img">
+                    <img
+                      class="activity-img"
+                      src="./img/track-card-img.png"
+                      alt=""
+                    />
+                  </div>
+                  <h3>AUGMENTED REALITY</h3>
+                  <div class="activity-item-text">
+                    <p>Augmented Reality (AR) is a highly visual.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="activity-cta">
+                <a href="#" class="activity-btn">Join CC Global Summit 2023</a>
+                <a href="#" class="activity-btn-b">SEE THE WHOLE PROGRAM</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature section -->
+      <section id="guest" class="guest">
+        <div class="container">
+          <div class="guest-content" id="guest">
+            <h2 class="mainTitle">FEATURED GUESTS</h2>
+            <div class="guest-list"></div>
+            <div class="more-guest">
+              <a href="#" class="more-btn"
+                >See More <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------------------Partner section------------------- -->
+
+      <section id="partner" class="partner">
+        <div class="container">
+          <div class="partner-content">
+            <h2 class="mainTitle partner-title">Partner</h2>
+            <div class="partner-list">
+              <div class="partner-item">
+                <div class="partner-item-img">
+                  <img src="./img/ptc-logo2022.svg" alt="PTC" />
+                </div>
+              </div>
+              <div class="partner-item">
+                <div class="partner-item-img">
+                  <img src="./img/google.png" alt="Google" />
+                </div>
+              </div>
+              <div class="partner-item">
+                <div class="partner-item-img">
+                  <img src="./img/NASA.png" alt="NASA" />
+                </div>
+              </div>
+              <div class="partner-item">
+                <div class="partner-item-img">
+                  <img src="./img/solar-sisters.png" alt="Solar Sisters" />
+                </div>
+              </div>
+            </div>
+            <div class="partner-overlay"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h1 class="logo">Team<span>Event</span></h1>
+          </div>
+          <div class="footer-adress">
+            <p>
+              2023 Team Event lifecycle innovation<br />
+              Some Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
