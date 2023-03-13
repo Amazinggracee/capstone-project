@@ -50,7 +50,7 @@ This Capstone Project is based on an online website for a conference with a slog
 ## Live Demo
 
 [Live Demo Link](https://amazinggracee.github.io/capstone-project/)
-[Live Demo ](https://amazinggracee.github.io/capstone-project/)
+[Live Demo from loom ](https://www.loom.com/share/9358a578b3dc4f9a94f34ab314d4932a)
 ## Getting Started
 
 To run this project clone it with `git clone git@github.com:Amazinggracee/capstone-project.git`
@@ -81,9 +81,9 @@ Install linters to handle some common Errors, You can have description about [Li
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[new_feature_1]** Add more behaviour via Javascript.
-- [ ] **[new_feature_2]** Portfolio: details popup window.
-- [ ]**[new_feature_3]** Portfolio: validate contact form.
-- [ ] **[new_feature_4]** Portfolio: preserve data in the browser.
+- [ ] **[new_feature_2]** Capstone Project: details popup window.
+- [ ]**[new_feature_3]** Capstone Project: validate contact form.
+- [ ] **[new_feature_4]** Capstone Project: preserve data in the browser.
 - [ ] **[new_feature_5]** Every other pages will be added example news page.
 
 ## Credit
@@ -102,7 +102,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- I am grateful to everyone whose code was used
 - Inspiration
 - etc
 
