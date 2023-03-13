@@ -8,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+   - [🚀 Live Demo from loom ](#Live Loom demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -50,7 +51,11 @@ This Capstone Project is based on an online website for a conference with a slog
 ## Live Demo
 
 [Live Demo Link](https://amazinggracee.github.io/capstone-project/)
+
+## Live Loom demo
+
 [Live Demo from loom ](https://www.loom.com/share/9358a578b3dc4f9a94f34ab314d4932a)
+
 ## Getting Started
 
 To run this project clone it with `git clone git@github.com:Amazinggracee/capstone-project.git`
