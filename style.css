@@ -384,6 +384,9 @@ nav.glue {
 
 .invitation-content h1 {
   color: var(--theme);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(./img/font-color.jpg);
   font-weight: 900;
   font-size: 50px;
   line-height: 1;
