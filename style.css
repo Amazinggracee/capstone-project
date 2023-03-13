@@ -21,6 +21,7 @@
   --pop: rgba(255, 255, 255, 0.5);
   --btn: rgba(255, 101, 47, 0.2);
   --half-color: #97989b;
+  --background: rgba(255, 255, 255, 0.122);
 }
 
 @font-face {
@@ -415,13 +416,12 @@ nav.glue {
 
 /* ======== Program css =========== */
 .activity {
-  background-color: var(--ash);
-  background-image: url(./img/activity-bg.png);
-  background-size: cover;
+  background-color: var(--navy);
+  background-image: url(./img/cross.svg);
+  background-size: 32px;
   color: var(--white-color);
   padding: 1rem 0;
   overflow: hidden;
-  background-repeat: repeat;
 }
 
 .activity-content {
@@ -462,13 +462,7 @@ nav.glue {
   gap: 1rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
-
-  /* background-color: var(--soft-navy); */
-
-  /* border: 1px solid var(--soft-navy); */
-  background-image: url(./img/activity-bg2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--background);
   transition: all 0.3s ease-in-out;
 }
 
