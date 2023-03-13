@@ -8,7 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-   - [🚀 Live Demo from loom ](#Live Loom demo)
+  - [🚀 Live Demo from loom](#Live-Loom-demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
