@@ -87,7 +87,7 @@ Install linters to handle some common Errors, You can have description about [Li
 
 - [ ] **[new_feature_1]** Add more behaviour via Javascript.
 - [ ] **[new_feature_2]** Capstone Project: details popup window.
-- [ ]**[new_feature_3]** Capstone Project: validate contact form.
+- [ ] **[new_feature_3]** Capstone Project: validate contact form.
 - [ ] **[new_feature_4]** Capstone Project: preserve data in the browser.
 - [ ] **[new_feature_5]** Every other pages will be added example news page.
 
