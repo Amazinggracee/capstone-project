@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 *,
 ::before,
@@ -15,7 +16,7 @@
   --white-color: #fff;
   --navy: #0e111a;
   --soft-navy: #010f30;
-  --gray-color-2: #f3f3f3;
+  --gray-color-2: #e7e0e0;
   --background-color: rgba(236, 82, 66, 0.7);
   --background-color-2: rgba(0, 0, 0, 0.2);
   --pop: rgba(255, 255, 255, 0.5);
@@ -24,13 +25,8 @@
   --background: rgba(255, 255, 255, 0.122);
 }
 
-@font-face {
-  font-family: lato;
-  src: url(./Lato2OFL/Lato-Black.ttf);
-}
-
 body {
-  font-family: lato, 'Inter', sans-serif;
+  font-family: Lato, 'Times New Roman', Times, serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--ash);
@@ -462,7 +458,7 @@ nav.glue {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 9px;
   cursor: pointer;
   padding: 0.5rem 1rem;
   background-color: var(--background);
@@ -668,7 +664,7 @@ q {
 
 .logo-exposition-content .logo-exposition-l img {
   width: 100%;
-  height: 140px;
+  height: 40%;
 }
 
 .partner-list .partner-item .partner-item-img img {
@@ -791,7 +787,7 @@ q {
 }
 
 .logo-exposition-content .logo-exposition-l {
-  border: 1px solid black;
+  border: 1px solid var(--gray-color-2);
   width: 87%;
   height: 46%;
 }
@@ -1049,13 +1045,13 @@ q {
   }
 
   .logo-exposition-content .logo-exposition-l {
-    border: 1px solid black;
+    border: 1px solid var(--gray-color-2);
     width: 50%;
     height: 46%;
   }
 
   .logo-exposition-content .logo-exposition-l img {
     width: 100%;
-    height: 200px;
+    height: 20vw;
   }
 }
