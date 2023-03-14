@@ -666,6 +666,11 @@ q {
   margin-right: 1rem;
 }
 
+.logo-exposition-content .logo-exposition-l img {
+  width: 100%;
+  height: 140px;
+}
+
 .partner-list .partner-item .partner-item-img img {
   width: 100%;
 }
@@ -786,7 +791,9 @@ q {
 }
 
 .logo-exposition-content .logo-exposition-l {
-  border: 1px solid var(--gray-color);
+  border: 1px solid black;
+  width: 87%;
+  height: 46%;
 }
 
 /* history section css */
@@ -803,6 +810,8 @@ q {
   margin-bottom: 0.2rem !important;
   display: flex;
   flex-direction: column;
+  font-size: 30px;
+  margin-top: -3rem;
 }
 
 .history-cards {
@@ -896,9 +905,9 @@ q {
       linear-gradient(
         50deg,
         var(--navy) 0%,
-        var(--navy)  50%,
-        var(--half-color)  50%,
-        var(--half-color)  100%
+        var(--navy) 50%,
+        var(--half-color) 50%,
+        var(--half-color) 100%
       );
   }
 
@@ -1037,5 +1046,16 @@ q {
 
   .history-cards {
     flex-direction: row;
+  }
+
+  .logo-exposition-content .logo-exposition-l {
+    border: 1px solid black;
+    width: 50%;
+    height: 46%;
+  }
+
+  .logo-exposition-content .logo-exposition-l img {
+    width: 100%;
+    height: 200px;
   }
 }
