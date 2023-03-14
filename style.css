@@ -448,7 +448,7 @@ nav.glue {
 .activity-content .red-line {
   border: 1px solid var(--theme);
   width: 40px;
-  margin-left: 7rem;
+  margin-left: 45%;
   margin-top: 5.5px;
 }
 
@@ -650,7 +650,7 @@ q {
 .partner-title .red-line {
   border: 1px solid var(--theme);
   width: 40px;
-  margin-left: 8rem;
+  margin-left: 45%;
   margin-top: 5.5px;
 }
 
