@@ -57,10 +57,6 @@ li {
   padding: 0 20px;
 }
 
-img {
-  max-width: 100%;
-}
-
 .btn {
   display: inline-block;
   padding: 6px 15px;
@@ -250,6 +246,10 @@ img {
   color: var(--theme);
 }
 
+.logo a img {
+  width: 60%;
+}
+
 .navbar-right {
   display: block;
   position: fixed;
@@ -429,27 +429,27 @@ nav.glue {
 
 .activity-content {
   padding: 2rem 0;
-  position: relative;
+
+  /* position: relative; */
 }
 
 .mainTitle {
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 500;
-  position: relative;
+
+  /* position: relative; */
   padding: 1rem;
   padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.mainTitle::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 50px;
-  right: 45%;
-  height: 1px;
-  background-color: var(--theme);
-  margin-bottom: 1rem;
+.activity-content .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 7rem;
+  margin-top: 5.5px;
 }
 
 .activity-list {
@@ -498,7 +498,7 @@ nav.glue {
 
 .guest-item-text p {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   max-width: 20rem;
 }
 
@@ -555,6 +555,13 @@ nav.glue {
   padding: 1rem 0;
 }
 
+.guest-line {
+  border: 1px solid var(--half-color);
+  width: 30px;
+  margin-left: 0;
+  margin-top: 5.5px;
+}
+
 q {
   font-style: italic;
   font-family: emoji, 'Courier New', Courier, monospace;
@@ -576,7 +583,7 @@ q {
 }
 
 .guest-item .guest-item-img {
-  width: 100%;
+  width: 80%;
   margin-top: -6px;
   margin-right: 5px;
 }
@@ -602,16 +609,6 @@ q {
   line-height: 1;
   position: relative;
   padding-bottom: 1.2rem;
-}
-
-.role::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 30px;
-  height: 1px;
-  background-color: var(--theme);
-  margin-bottom: 1rem;
 }
 
 .more-guest {
@@ -645,7 +642,16 @@ q {
 }
 
 .partner-title {
+  display: flex;
+  flex-direction: column;
   z-index: 2;
+}
+
+.partner-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 8rem;
+  margin-top: 5.5px;
 }
 
 .partner-list {
@@ -658,6 +664,10 @@ q {
 .partner-list .partner-item {
   max-width: 100px;
   margin-right: 1rem;
+}
+
+.partner-list .partner-item .partner-item-img img {
+  width: 100%;
 }
 
 .partner-overlay {
@@ -678,6 +688,13 @@ q {
   background-color: var(--gray-color-2);
   color: var(--ash);
   padding: 5rem 0;
+}
+
+.about-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
 }
 
 .about-content {
@@ -707,6 +724,8 @@ q {
   padding: 0.5rem;
   border: 1px solid var(--gray-color);
   margin-bottom: 1rem;
+  font-weight: 300;
+  color: var(--half-color);
 }
 
 .emailBtn {
@@ -740,28 +759,36 @@ q {
 
 .logo-exposition-content .logo-exposition-title {
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: var(--ash);
 }
 
-.logo-exposition-content .logo-exposition-title::before {
-  content: '';
-  position: absolute;
-  bottom: 80px;
-  width: 50px;
-  right: 45%;
-  height: 1px;
-  background-color: var(--theme);
-  margin-bottom: 1rem;
+.history-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
+}
+
+.logo-exposition-content .logo-exposition-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
 }
 
 .logo-exposition-content .logo-exposition-p {
   margin-bottom: 2rem;
   max-width: 40rem;
+  color: var(--half-color);
 }
 
 .logo-exposition-content .logo-exposition-l {
   border: 1px solid var(--gray-color);
-  padding: 1rem 2rem;
 }
+
 
 /* history section css */
 .history {
@@ -775,6 +802,8 @@ q {
 
 .history-title {
   margin-bottom: 0.2rem !important;
+  display: flex;
+  flex-direction: column;
 }
 
 .history-cards {
@@ -920,10 +949,6 @@ q {
     color: var(--white-color);
   }
 
-  .mainTitle::before {
-    right: 48%;
-  }
-
   .invitation-bg {
     background-image: url('./img/bkgrnd.png');
   }
@@ -941,6 +966,13 @@ q {
     flex-direction: column;
     padding: 1rem 0;
     text-align: center;
+  }
+
+  .activity-content .red-line {
+    border: 1px solid var(--theme);
+    width: 40px;
+    margin-left: 45%;
+    margin-top: 5.5px;
   }
 
   .activity-item .activity-item-text {
@@ -980,15 +1012,22 @@ q {
     cursor: pointer;
     position: relative;
     background-image: url(./img/cheq.png);
-    background-size: 21% 21%;
+    background-size: 21% 31%;
     background-repeat: no-repeat;
   }
 
   .guest-item .guest-item-img img {
     margin-top: 15px;
-    width: 100%;
+    width: 60%;
     position: relative;
     margin-left: 12px;
+  }
+
+  .partner-title .red-line {
+    border: 1px solid var(--theme);
+    width: 40px;
+    margin-left: 47%;
+    margin-top: 5.5px;
   }
 
   /* ============ about page ======== */
@@ -999,16 +1038,5 @@ q {
 
   .history-cards {
     flex-direction: row;
-  }
-
-  .logo-exposition-content .logo-exposition-title::before {
-    content: '';
-    position: absolute;
-    bottom: 30px;
-    width: 40px;
-    right: 50%;
-    height: 1px;
-    background-color: var(--theme);
-    margin-bottom: 1rem;
   }
 }
