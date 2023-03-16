@@ -541,6 +541,34 @@ nav.glue {
   overflow: hidden;
 }
 
+.about-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
+}
+
+.history-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
+}
+
+.partner-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 45%;
+  margin-top: 5.5px;
+}
+
+.guest-content .mainTitle .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
+}
+
 .guest-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
@@ -643,13 +671,6 @@ q {
   z-index: 2;
 }
 
-.partner-title .red-line {
-  border: 1px solid var(--theme);
-  width: 40px;
-  margin-left: 45%;
-  margin-top: 5.5px;
-}
-
 .partner-list {
   display: flex;
   flex-wrap: wrap;
@@ -689,13 +710,6 @@ q {
   background-color: var(--gray-color-2);
   color: var(--ash);
   padding: 5rem 0;
-}
-
-.about-title .red-line {
-  border: 1px solid var(--theme);
-  width: 40px;
-  margin-left: 47%;
-  margin-top: 5.5px;
 }
 
 .about-content {
@@ -764,13 +778,6 @@ q {
   flex-direction: column;
   font-size: 20px;
   color: var(--ash);
-}
-
-.history-title .red-line {
-  border: 1px solid var(--theme);
-  width: 40px;
-  margin-left: 47%;
-  margin-top: 5.5px;
 }
 
 .logo-exposition-content .logo-exposition-title .red-line {
