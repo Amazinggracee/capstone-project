@@ -541,6 +541,13 @@ nav.glue {
   overflow: hidden;
 }
 
+.guest-content .mainTitle .red-line {
+    border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
+}
+
 .guest-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));

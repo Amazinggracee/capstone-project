@@ -3,6 +3,10 @@ const navbar = document.getElementById('navbar');
 const navbarMenu = document.querySelector('.navbar-right');
 const guestList = document.querySelector('.guest-list');
 const showMore = document.querySelector('.more-btn');
+const userPopup = document.querySelector('.login-popup');
+const loginBtn = document.querySelector('.login-btn');
+const userPopupLayer = document.getElementById('pop-for-users');
+const userPopupClose = document.querySelector('.pop-close');
 
 // Feature data Object
 const speakers = [
@@ -55,6 +59,20 @@ const speakers = [
     image: './img/people6.jpg',
   },
 ];
+
+// Login user popup
+loginBtn.addEventListener('click', () => {
+  document.body.classList.add('no-scroll');
+  userPopupLayer.classList.add('pop-for-users');
+  userPopup.classList.add('hide-login-popup');
+});
+
+// Login user Popup close
+userPopupClose.addEventListener('click', () => {
+  document.body.classList.remove('no-scroll');
+  userPopupLayer.classList.remove('pop-for-users');
+  userPopup.classList.remove('hide-login-popup');
+});
 
 // burger menu action
 let menuOpen = false;
